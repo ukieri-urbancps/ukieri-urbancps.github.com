@@ -29,7 +29,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: #505050; 
-    text-align: justify;
+    text-align:left;
     font-family:'Roboto',sans-serif;
     font-size:1em;
     line-height:1.5em;
@@ -37,18 +37,18 @@ body{
     width: 1000px;
 }
 
-a{color: #8B0000; text-decoration:none;}
-a.current{color: #8B0000;}
-a.current:hover{color: #8B0000;}
-a:hover{color: #52739e;}
-a:active{color: #8B0000;}
+a{color: #b8860b; text-decoration:none;}
+a.current{color: #901B0C;}
+a.current:hover{color: #901B0C;}
+a:hover{color: #b2132e;}
+a:active{color: #901B0C;}
 h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
-li a, p a {text-decoration:underline; text-decoration-color:#b2132e;}
+li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
@@ -78,17 +78,17 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:1.33em; color: #8B0000; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #8B0000; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #8B0000; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #8B0000; font-size:0.67em; font-weight: lighter;}
+.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
+.year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
-td.navigation{font-size:1.33em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
@@ -115,9 +115,7 @@ table.flyers{width:800px;}
 td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
 
-/* The Footer */
-table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
-td.footer{width:auto; text-align:center; vertical-align:middle;}
+footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
 /* My hacky way of making the site mobile-friendly */
 @media only screen and (max-width: 1100px) {
@@ -128,4 +126,3 @@ td.footer{width:auto; text-align:center; vertical-align:middle;}
     td.navigation{font-size:1.5em; padding:0px 20px 0px 20px;}
     table.footer{font-size:0.33em;}
 }
-
